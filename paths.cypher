@@ -1,73 +1,72 @@
-match 
-   (p1:Person        	{name: "George III, King of Great Britain and Ireland"}),
-   (p1f:Person       	{name: "Charlotte, Queen of Great Britain and Ireland and Electress of Hanover"}),
-   (p2:Person        	{name: "Mead, Richard"}),
-   (p2f:Person       	{name: "Brydges, Cassandra, 1st Duchess of Chandos"}),
-   (p3:Person        	{name: "Dashwood, Francis, 11th Baron Le Despencer"}),
-   (p3f:Person       	{name: "Delany, Mary"}),
-   (p4:Person        	{name:   "Fitzroy, Augustus Henry, 3rd Duke of Grafton"}),
-   (p4f:Person       	{name:  "Banks, Sarah Sophia"}),
-   (p5:Person        	{name:  "Banks, Sir Joseph"}),
-   (p5f:Person       	{name:  "Lee, Ann"}),
-   (p6:Person        	{name:  "Beckford, William Thomas"}),
-   (p6f:Person       	{name:  "Bentinck, Margaret Cavendish, 2nd Duchess of Portland"}),
-   (p7:Person        	{name:  "Stuart, John, 3rd Earl of Bute"}),
-   (p7f:Person       	{name:  "Lee, Ann"}),
-   (p8:Person        	{name:  "Hamilton, Sir William"}),
-   (p8f:Person       	{name:  "Montagu, Elizabeth"}),
-   (p9:Person        	{name:  "Clifford, George"}),
-   (p9f:Person       	{name:  "Cavendish, Georgiana, 5th Duchess of Devonshire"}),
-   (p10:Person       	{name:  "Clifford, George"}),
-   (p10f:Person      	{name:  "Cavendish-Bentinck, Dorothy, 3rd Duchess of Portland"}),
-   (p11:Person       	{name:   "Compton, Henry, Bishop of London"}),
-   (p11f:Person      	{name:  "Monson, Lady Anne"}),
-   (p12:Person       	{name:   "Solander, Daniel"}),
-   (p12f:Person      	{name:  "Graham, Catherine"}),                                    
-   (p13:Person       	{name:   "Hughes, Rev. Griffith"}),
-   (p13f:Person      	{name:  "Villiers, Frances, 4th Countess of Jersey"}),
-   (p14:Person       	{name:   "Worsley, Lady Seymour Dorothy"}),
-   (p14f:Person      	{name:  "Furber, Robert"}),
-   (p15:Person       	{name:   "Withering, William"}),
-   (p15f:Person      	{name:  "Hamilton, Lady Emma"}),
-   (p16:Person       	{name:   "Smellie, William"}),
-   (p16f:Person      	{name:  "Beauclerk, Lady Diana"}),
-   (p17:Person       	{name:  "Petiver, James"}),
-   (p17f:Person      	{name:  "Damer, Anne Seymour"}),
-   (p18:Person       	{name:  "Dillenius, Johann"}),
-   (p18f:Person      	{name:  "Beauclerk, Harriot, 9th Duchess of St Albans"}),
-   (p19:Person       	{name:   "Graham, Dr James"}),
+match    (p1:Person        	{name: "George III, King of Great Britain and Ireland"})
+match    (p1f:Person       	{name: "Charlotte, Queen of Great Britain and Ireland and Electress of Hanover"})
+match    (p2:Person        	{name: "Mead, Richard"})
+match    (p2f:Person       	{name: "Brydges, Cassandra, 1st Duchess of Chandos"})
+match    (p3:Person        	{name: "Dashwood, Francis, 11th Baron Le Despencer"})
+match    (p3f:Person       	{name: "Delany, Mary"})
+match    (p4:Person        	{name:   "Fitzroy, Augustus Henry, 3rd Duke of Grafton"})
+match    (p4f:Person       	{name:  "Banks, Sarah Sophia"})
+match    (p5:Person        	{name:  "Banks, Sir Joseph"})
+match    (p5f:Person       	{name:  "Lee, Ann"})
+match    (p6:Person        	{name:  "Beckford, William Thomas"})
+match    (p6f:Person       	{name:  "Bentinck, Margaret Cavendish, 2nd Duchess of Portland"})
+match    (p7:Person        	{name:  "Stuart, John, 3rd Earl of Bute"})
+match    (p7f:Person       	{name:  "Lee, Ann"})
+match    (p8:Person        	{name:  "Hamilton, Sir William"})
+match    (p8f:Person       	{name:  "Montagu, Elizabeth"})
+match    (p9:Person        	{name:  "Clifford, George"})
+match    (p9f:Person       	{name:  "Cavendish, Georgiana, 5th Duchess of Devonshire"})
+match    (p10:Person       	{name:  "Clifford, George"})
+match    (p10f:Person      	{name:  "Cavendish-Bentinck, Dorothy, 3rd Duchess of Portland"})
+match    (p11:Person       	{name:   "Compton, Henry, Bishop of London"})
+match    (p11f:Person      	{name:  "Monson, Lady Anne"})
+match    (p12:Person       	{name:   "Solander, Daniel"})
+match    (p12f:Person      	{name:  "Graham, Catherine"})                                    
+match    (p13:Person       	{name:   "Hughes, Rev. Griffith"})
+match    (p13f:Person      	{name:  "Villiers, Frances, 4th Countess of Jersey"})
+match    (p14:Person       	{name:   "Worsley, Lady Seymour Dorothy"})
+match    (p14f:Person      	{name:  "Furber, Robert"})
+match    (p15:Person       	{name:   "Withering, William"})
+match    (p15f:Person      	{name:  "Hamilton, Lady Emma"})
+match    (p16:Person       	{name:   "Smellie, William"})
+match    (p16f:Person      	{name:  "Beauclerk, Lady Diana"})
+match    (p17:Person       	{name:  "Petiver, James"})
+match    (p17f:Person      	{name:  "Damer, Anne Seymour"})
+match    (p18:Person       	{name:  "Dillenius, Johann"})
+match    (p18f:Person      	{name:  "Beauclerk, Harriot, 9th Duchess of St Albans"})
+match    (p19:Person       	{name:   "Graham, Dr James"})
 //********* to do
-   (p19f:Person      	{name:  "Fox, Elizabeth Vassall, 3rd Baroness Holland"}),
+match    (p19f:Person      	{name:  "Fox, Elizabeth Vassall, 3rd Baroness Holland"})
 //********* to do
-   (p20:Person       	{name:  "Sherard, James"}),
+match    (p20:Person       	{name:  "Sherard, James"})
 //********* to do
-   (p20f:Person      	{name:  "Jacson, Maria Elizabetha"}),
+match    (p20f:Person      	{name:  "Jacson, Maria Elizabetha"})
 //********* to fix
-//p21:Person         	{name:   "Rousseau, Jean-Jacques"}),
-   (p21f:Person      	{name:  "Blackwell, Elizabeth"}),
+//p21:Person         	{name:   "Rousseau, Jean-Jacques"})
+match    (p21f:Person      	{name:  "Blackwell, Elizabeth"})
 //********* to do
-   (p22:Person       	{name:   "Darwin, Erasmus"}),
+match    (p22:Person       	{name:   "Darwin, Erasmus"})
 //********* to do
-   (p22f:Person      	{name:  "Smith-Stanley, Lady Elizabeth, 12th Countess of Derby II"}),
-   (p23:Person       	{name:   "Ehret, Georg"}),
-   (p23f:Person      	{name:  "Nihell, Elizabeth"}),
-   (p24:Person       	{name:   "Hogarth, William"}),
-   (p24f:Person      	{name:  "Battiscombe, Honor"}),
-   (o11f:Object      	{name:  "Monson Bengal Insect Collection"}),
-   (e31:Residence    	{name:  "West Wycombe Park"}),
-   (u20:Publication  	{name:  "Hortus Elthamensis"}),
-   (u23f1:Publication 	{name:  "The Art of Midwifery"}),
-   (u161:Publication 	{name:  "The Theory and Practice of Midwifery"}),
-   (u21f1:Publication 	{name:  "A Curious Herbal"}),
-//   (p11fd:Person     	{name:  "Vane, William Harry, 1st Duke of Cleveland"}),   
-   (p19a:Person      	{name:  "Maria I, Queen of Portugal"}),   
-   (pt3a:Person      	{name:  "Cozens, Alexander"}),
-   (pt3b:Person      	{name:  "Chambers, Sir William"}),
-   (p13a:Person      	{name:  "Bray, Rev. Thomas"}),
-   (s1:Society       	{name:  "Temple Coffee House Botanic Club"}),
-   (s2:Society       	{name:  "Society for the Propagation of the Gospel in Foreign Parts"}),
-   (s3:Society       	{name:  "Lunar Society"}),
-   (t1:Theatre       	{name:  "Theatre Royal, Drury Lane"})
+match    (p22f:Person      	{name:  "Smith-Stanley, Lady Elizabeth, 12th Countess of Derby II"})
+match    (p23:Person       	{name:   "Ehret, Georg"})
+match    (p23f:Person      	{name:  "Nihell, Elizabeth"})
+match    (p24:Person       	{name:   "Hogarth, William"})
+match    (p24f:Person      	{name:  "Battiscombe, Honor"})
+match    (o11f:Object      	{name:  "Monson Bengal Insect Collection"})
+match    (e31:Residence    	{name:  "West Wycombe Park"})
+match    (u20:Publication  	{name:  "Hortus Elthamensis"})
+match    (u23f1:Publication 	{name:  "The Art of Midwifery"})
+match    (u161:Publication 	{name:  "The Theory and Practice of Midwifery"})
+match    (u21f1:Publication 	{name:  "A Curious Herbal"})
+//   (p11fd:Person     	{name:  "Vane, William Harry, 1st Duke of Cleveland"})  
+match    (p19a:Person      	{name:  "Maria I, Queen of Portugal"})   
+match    (pt3a:Person      	{name:  "Cozens, Alexander"})
+match    (pt3b:Person      	{name:  "Chambers, Sir William"})
+match    (p13a:Person      	{name:  "Bray, Rev. Thomas"})
+match    (s1:Society       	{name:  "Temple Coffee House Botanic Club"})
+match    (s2:Society       	{name:  "Society for the Propagation of the Gospel in Foreign Parts"})
+match    (s3:Society       	{name:  "Lunar Society"})
+match    (t1:Theatre       	{name:  "Theatre Royal, Drury Lane"})
 
 OPTIONAL MATCH
 
@@ -281,4 +280,5 @@ return
    r22fa, 
    r23a, r23b, r23fa, r23fb,
    r16a
+
 
